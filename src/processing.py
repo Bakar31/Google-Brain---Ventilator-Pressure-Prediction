@@ -1,5 +1,5 @@
 from sklearn.preprocessing import StandardScaler
-from input import train, test
+from feature_engineering import train, test
 
 targets = train[['pressure']].to_numpy().reshape(-1, 80)
 train.drop(['pressure', 'id', 'breath_id'], axis = 1, inplace = True)
