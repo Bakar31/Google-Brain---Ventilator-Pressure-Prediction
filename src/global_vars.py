@@ -1,4 +1,5 @@
 import tensorflow as tf
+from tensorflow import keras
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.callbacks import LearningRateScheduler
 from tensorflow.keras.optimizers.schedules import ExponentialDecay
