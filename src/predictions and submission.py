@@ -1,5 +1,5 @@
 import pandas as pd
-from input import ss
+from config import ss
 from model_1 import model_1_preds
 from model_2 import model_2_preds
 from model_3 import model_3_preds
