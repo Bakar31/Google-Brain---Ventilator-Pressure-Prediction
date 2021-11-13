@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from input import train, test
+from config import train, test
 
 def add_features_1(df):
     df['cross']= df['u_in'] * df['u_out']
