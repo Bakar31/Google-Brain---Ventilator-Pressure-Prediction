@@ -1,4 +1,4 @@
-from global_vars import *
+from config import *
 from processing import train, test, X_train, y_train, X_valid, y_valid
 
 model_1 = keras.models.Sequential([
